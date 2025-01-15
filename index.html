@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="shortcut icon" href="./img/icons8-libro-48.png" type="image/png">
+    <title>Sebastian Cruz</title>
+</head>
+<body>
+   <header class="header">
+    <input type="checkbox" id="open-menu" class="header__checkbox">
+    <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+    <div class="header__logo-container">
+        <img src="img/Dbsebas.png" class="header__logo" alt="logo">
+    </div>
+    <nav class="header__nav header__nav-close" id="nav">
+        <ul class="header_nav-list" >
+            <li class="header__nav-item"><a id="click1" href="#profile" >About Us</a></li>
+            <li class="header__nav-item"><a id="click2" href="#portfolio">Portfolio</a></li>
+            <li class="header__nav-item"><a id="click3" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+   </header>
+   <main class="profile"id="profile">
+    <div class="profile__wrapper" >
+        <picture class="profile__img-container">
+            <source srcset="img/sebas400.jpg" media="(max-width: 600px)" class="profile__img">
+            <source  class="profile__img" srcset="img/sebas830.jpg" media="(min-width: 800px)">
+            <img src="img/sebas400.jpg" alt="Sebas" class="profile__img">
+        </picture>
+        <!-- <div class="profile__img-container">
+            <img src="img/sebas400.jpg" class="profile__img" alt="Foto de Sebas">
+        </div> -->
+        <div class="profile__data-container">
+           <div class="profile__description">
+              <h1>¿Quien es Sebastian Cruz?</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi velit esse sunt quia alias nostrum, necessitatibus numquam perferendis ea similique odio nisi repellat quidem, voluptatem harum sapiente repudiandae expedita quod? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ex. A ipsa aut corporis inventore accusamus provident, accusantium deleniti omnis eveniet eius placeat dicta assumenda quam, neque delectus ipsum quis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+           </div> 
+           <h2 class="profile__skill-name">Web Dev Junior Skills</h2>
+      
+           <div class="profile__skill">
+             
+            <div class="profile__skill-container">
+              <div class="skill__section">
+                <img src="./img/html.png" alt="">
+              </div>
+              <div class="skill__section">
+               
+                <img src="./img/bootstrap.png" alt="">
+              </div>
+              <div class="skill__section">  
+                <img src="./img/css.png " alt="">
+              </div>
+
+              <div class="skill__section">
+                
+                <img src="./img/js.png" alt="">
+              </div>
+              <div class="skill__section">
+               
+                <img src="./img/react.png" alt="">
+              </div>
+              
+              <div class="skill__section">
+               
+                <img src="./img/sql.png" alt="">
+              </div>
+              <div class="skill__section">
+                
+                <img src="./img/git.png" alt="">
+              </div>
+            </div>
+           </div>    
+        </div>
+    </div>
+   </main>
+   <section class="portfolio" id="portfolio">
+    <h2 class="portfolio__title">PORTFOLIO</h2>
+    <div class="portfolio__project-container">
+      <div class="portfolio__project">
+        <h2 class="portfolio__project-name">PROJECT</h2>
+      </div>  
+      <div class="portfolio__project">
+        <h2 class="portfolio__project-name">PROJECT</h2>
+      </div> 
+      <div class="portfolio__project">
+        <h2 class="portfolio__project-name">PROJECT</h2>
+      </div> 
+      <div class="portfolio__project">
+        <h2 class="portfolio__project-name">PROJECT</h2>
+      </div>  
+      <div class="portfolio__project">
+        <h2 class="portfolio__project-name">PROJECT</h2>
+      </div> 
+      <div class="portfolio__project">
+        <h2 class="portfolio__project-name">PROJECT</h2>
+      </div> 
+    </div>
+   </section>
+   <section class="contact" id="contact">
+      <div class="contact__container">
+        <h2 class="contact__title-form">Contact</h2>
+         <form action="" class="contact__form">
+            <div class="form__input-container">
+                <label for="">Name
+                   <input type="text" placeholder="Juan Diaz">
+                </label>
+                <label for="">Phone Number
+                    <input type="number" placeholder="312121212">
+                 </label>
+                 <label for="">Location
+                    <input type="text" placeholder="Bogota">
+                 </label>
+                 <label for="">Email
+                    <input type="email" placeholder="sebitas07@gmail.com">
+                 </label>
+                 <label for="">Message
+                    <textarea name="" id="" placeholder="Your Message"></textarea>
+                 </label>
+                 <label for="">
+                    <input type="submit">
+                 </label>
+            </div>
+         </form>
+      </div>
+   </section>
+   <footer><h2>@Sebastian Cruz - 2025</h2></footer>
+  <script src="app.js"></script>
+</body>
+</html>
